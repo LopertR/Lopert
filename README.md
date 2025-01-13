@@ -35,7 +35,7 @@ _Dőlt másként_
 
 >Első idézet...  
    >>Bágyazott blokk  
-   >>További beágyazott blokk
+   >>>További beágyazott blokk
 
 
 # Listák
@@ -44,13 +44,11 @@ _Dőlt másként_
 
 
 * Alma
-- Piros alma
-+ Narancs
-   * További elem
-   * további 
-   - tovabbi
+   + Piros alma
+- Narancs
+* További elem
 
-Számozás
+# Számozás
 
 1. Hétfő
 2. Kedd
@@ -58,13 +56,15 @@ Számozás
 
 
 
-Számozás indítása más kezdettel:
+# Számozás indítása más kezdettel:
 
 1. Vasárnap
-2. Hétfő
+   1. Hétfő
+2. Szombat
+   2. Kedd
 
 
-Kód
+# Kód
 
 Soron `belül` code
 
@@ -80,21 +80,23 @@ Gyakorlás
 # Blokk kód
 
 
-Egyszerű szöveg...
+> Egyszerű szöveg...
 
 
-Szintaxis kiemelés
+# Szintaxis kiemelés
 
-``` for i in range(10): ```   
-    ``` print("Hello") ```   
-     ```print("Vége") ```
+```Python 
+for i in range(10):    
+     print("Hello")   
+     print("Vége") 
+```
 
-Táblázat
+# Táblázat
 
 
 
 
-| Gyümölcs | Súly |  
+|    Gyümölcs |   Súly |  
 |----------| :------: |
 | Alma     | 10 lg |
 | Körte    | 20 kg |
@@ -102,7 +104,7 @@ Táblázat
 
 
 
-Linkek
+# Linkek
 
 [Aqua](http://aqua.hu)
 
@@ -111,25 +113,30 @@ Linkek
 [Automatikus link](https://arpadszki.hu)
 
 
-Képek
+# Képek
 
 ![Minion](https://octodex.github.com/images/minion.png)
-Stormtroopocat  https://octodex.github.com/images/stormtroopocat.jpg The Stormtroopocat
+![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg 'The Stormtroopocat')
 
 
-![Emoji](https://github.com/markdown-it/markdown-it-emoji)
+# Emoji
 
-Jelek:
+[Emoji](https://github.com/markdown-it/markdown-it-emoji)
 
 
-Lábjegyzet https://github.com/markdown-it/markdown-it-footnote
+>Jelek: :blush: :smiley: :heart_eyes:
 
-Forgalomirányító protokollok:
-RIP
-OSPF
 
-Routing Information Protocol
 
-Open Shortest Path First
+
+[Lábjegyzet](https://github.com/markdown-it/markdown-it-footnote)
+Forgalomirányító  protokollok:
+
+RIP [^1]
+OSPF [^2]
+
+[^1]: Routing Information Protocol
+
+[^2]: Open Shortest Path First
 
 
